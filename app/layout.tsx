@@ -11,8 +11,10 @@ export const metadata = {
 	title: "Discover Awe-Inspiring Temples Around the Globe",
 	description:
 		"Explore a collection of breathtaking temples from diverse cultures and religions, each with a unique history and architectural beauty. Embark on a virtual journey and uncover the stories behind these sacred places.",
+
 	keywords:
 		"temples, world, architecture, religion, travel, culture, spirituality, history, landmarks",
+	googleadsenseaccount: "ca-pub-4118963972175745",
 };
 
 export default function RootLayout({
