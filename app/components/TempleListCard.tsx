@@ -3,8 +3,8 @@ import Link from "next/link";
 import React from "react";
 
 type propTypes = {
-	url: string;
-	alt: string;
+	url?: string;
+	alt?: string;
 	title: string;
 	text: string;
 	place: string;
@@ -20,7 +20,7 @@ const TempleListCard = (props: propTypes) => {
 					{url && url !== "" ? (
 						<Image
 							src={url}
-							alt={alt}
+							alt={alt ? alt : ""}
 							width={400}
 							height={400}
 							className="rounded-2xl shadow-xl"
@@ -28,7 +28,7 @@ const TempleListCard = (props: propTypes) => {
 					) : (
 						<Image
 							src="/temple2.jpg"
-							alt={alt}
+							alt={alt ? alt : ""}
 							width={400}
 							height={400}
 							className="rounded-2xl shadow-xl"

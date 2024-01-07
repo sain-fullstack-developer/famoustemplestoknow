@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--foreground-rgb: 0, 0, 0;
+	--background-start-rgb: 214, 219, 220;
+	--background-end-rgb: 255, 255, 255;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+.home-subheading-animate {
+	animation: scaleUp 2s ease-in-out;
+}
+.home-heading-animate {
+	animation: fadeInText 4s;
+}
+
+.animate-slide-up {
+	animation: slideInUp 2s ease-in-out;
+}
+
+.scrollElement {
+	transform: translateY(40px);
+	transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.scrollElement.animate {
+	transform: translateY(0);
+}
+
+@keyframes fadeInText {
+	from {
+		opacity: 0; /* Start with opacity 0 */
+	}
+	to {
+		opacity: 1; /* End with opacity 1 */
+	}
+}
+
+@keyframes fadeInOutText {
+	0%,
+	100% {
+		opacity: 0; /* Start and end with opacity 0 */
+	}
+	50% {
+		opacity: 1; /* Middle of the animation with opacity 1 */
+	}
+}
+
+@keyframes scaleAnimation {
+	0%,
+	100% {
+		transform: scale(1); /* Start and end with normal scale */
+	}
+	50% {
+		transform: scale(1.5); /* Middle of the animation with scaled up */
+	}
+}
+
+@keyframes scaleUp {
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes slideInUp {
+	from {
+		transform: translateY(200%);
+	}
+	to {
+		transform: translateY(0);
+	}
+}
