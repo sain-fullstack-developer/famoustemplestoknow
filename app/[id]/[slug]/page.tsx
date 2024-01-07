@@ -66,6 +66,7 @@ const TempleDetailsPage = ({ params }: any) => {
 					{famousTemplesListTS.slice(0, 6)?.map((list, index) => {
 						return (
 							<Link
+								key={index}
 								href={`/${index}/${list.title
 									.toLocaleLowerCase()
 									.replace(/[\s -]+/g, "-")}`}>

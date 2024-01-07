@@ -44,6 +44,7 @@ export default function Home() {
 					{famousTemplesListTS.map((list, index) => {
 						return (
 							<TempleListCard
+								key={index}
 								href={`/${index}/${list.title
 									.toLowerCase()
 									.replace(/[\s-]+/g, "-")}`}
