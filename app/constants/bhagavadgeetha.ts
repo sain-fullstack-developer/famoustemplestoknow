@@ -5600,3 +5600,4 @@ export const BhagavadGeethaData = [
 			"Wherever there is the Divine Lord Krishna, the Master of all Yoga, and the able disciple Arjuna, there is beauty, morality, extraordinary power, and victory over all evil. O King Dhrtarastra, this is my unshakeable belief and faith.",
 	},
 ];
+
