@@ -1,9 +1,9 @@
 import "./styles/globals.css";
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Head from "next/head";
 import { ThemeProvider } from "./components/ThemeProvider/ThemeProvider";
 import { ThemeSwitcher } from "./components/ThemeProvider/ThemeSwitcher";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,10 +27,12 @@ export default function RootLayout({
 			<body
 				className={`${inter.className} relative bg-white dark:bg-black text-black dark:text-white`}>
 				<ThemeProvider attribute="class">
-					<div className="absolute right-10 sm:right-24 top-7 z-50">
+					<div className="absolute right-20 sm:right-10 top-7 z-50">
 						<ThemeSwitcher />
 					</div>
+					<Header />
 					{children}
+					<Footer />
 				</ThemeProvider>
 			</body>
 		</html>

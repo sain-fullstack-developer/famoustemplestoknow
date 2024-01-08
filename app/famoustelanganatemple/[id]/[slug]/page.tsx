@@ -20,11 +20,6 @@ const TempleDetailsPage = ({ params }: any) => {
 	const { imageUrl, title, text, place, timing } = famousTemplesListTS[index];
 	return (
 		<main className="min-h-screen p-8 sm:p-16 lg:p-20 grid lg:grid-cols-custom1 gap-6 relative">
-			<Link href="/" className="absolute right-4 sm:right-10 top-4">
-				<div className="w-6 h-6 sm:w-10 sm:h-10 bg-gray-300/80 rounded-full grid place-items-center">
-					<div className="h-2 w-2 sm:h-4 sm:w-4 bg-none border-2 border-black border-r-0 border-b-0 -rotate-45 cursor-pointer"></div>
-				</div>{" "}
-			</Link>
 			<section className="pb-6">
 				<div className="max-w-3xl pb-12">
 					<h1 className="text-3xl sm:text-5xl pb-12">{title}</h1>
@@ -68,7 +63,7 @@ const TempleDetailsPage = ({ params }: any) => {
 							return (
 								<Link
 									key={i}
-									href={`/${i}/${list.title
+									href={`/famoustelanganatemple/${i}/${list.title
 										.toLocaleLowerCase()
 										.replace(/[\s -]+/g, "-")}`}>
 									<div className="pb-2 animate-slide-up">

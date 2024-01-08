@@ -15,7 +15,7 @@ const TempleListCard = (props: propTypes) => {
 	const { url, alt, title, text, place, href } = props;
 	return (
 		<Link href={href}>
-			<div className="py-6 cursor-pointer">
+			<div className="py-4 cursor-pointer">
 				<div className="grid md:grid-cols-2 gap-6">
 					{url && url !== "" ? (
 						<Image
@@ -42,7 +42,7 @@ const TempleListCard = (props: propTypes) => {
 							{text}
 						</p>
 						<p>
-							<b>Place:</b> {place}
+							Place: <b>{place}</b>
 						</p>
 					</div>
 				</div>
