@@ -25,7 +25,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${inter.className} relative bg-white dark:bg-black text-black dark:text-white`}>
+				className={`${inter.className} relative bg-white dark:bg-black text-black dark:text-white main-fade-animate`}>
 				<ThemeProvider attribute="class">
 					<div className="absolute right-20 sm:right-10 top-7 z-50">
 						<ThemeSwitcher />

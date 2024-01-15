@@ -50,7 +50,7 @@ const Footer = (props: Props) => {
 						</h2>
 					</Link>
 					<p className="text-black dark:text-white text-paragraphLarge leading-paragraphLarge pb-4">
-						Subscribe to our Newsletter
+						Email: saidattathemes@gmail.com
 					</p>
 				</div>
 			</motion.div>

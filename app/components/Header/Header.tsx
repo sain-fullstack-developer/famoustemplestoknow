@@ -5,7 +5,7 @@ import Link from "next/link";
 import { BiMenu } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 import { motion, useMotionValueEvent, useScroll } from "framer-motion";
-import {usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
 	const [toggleMenuList, setToggleMenuList] = React.useState(false);

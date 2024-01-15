@@ -17,7 +17,7 @@ export const generateMetadata = () => {
 
 const Bhagavadgeetha = () => {
 	return (
-		<div className="p-8 sm:p-16 md:py-8 md:px-32">
+		<main className="p-8 sm:p-16 md:py-8 md:px-32">
 			<h1 className="text-3xl sm:text-4xl pb-6 md:pb-12">
 				{BhagavadgeethaPageTitle}
 			</h1>
@@ -61,7 +61,7 @@ const Bhagavadgeetha = () => {
 					);
 				})}
 			</section>
-		</div>
+		</main>
 	);
 };
 
