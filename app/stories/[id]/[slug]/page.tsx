@@ -1,12 +1,4 @@
 import { storiesData } from "@/app/constants/storiesData";
-import Link from "next/link";
-import { useParams } from "next/navigation";
-import { text } from "stream/consumers";
-
-interface Story {
-	title: string;
-	description: string;
-}
 
 export const generateMetadata = ({ params }: any) => {
 	const index = parseInt(params.id);
@@ -19,7 +11,7 @@ export const generateMetadata = ({ params }: any) => {
 	};
 };
 
-const StoryPage: React.FC<Story> = ({ params }: any) => {
+const StoryPage = ({ params }: any) => {
 	const index = parseInt(params.id);
 
 	const { title, description } = storiesData[index];
