@@ -11,16 +11,7 @@ export const generateMetadata = () => {
 	};
 };
 
-interface Story {
-	title: string;
-	description: string;
-}
-
-interface StoriesPageProps {
-	stories: Story[];
-}
-
-const StoriesPage: React.FC<StoriesPageProps> = () => {
+const StoriesPage = () => {
 	return (
 		<main className="container mx-auto  text-center p-8 lg:p-0 lg:px-32">
 			<h1 className="text-2xl sm:text-4xl font-bold pb-6 sm:pb-12">
