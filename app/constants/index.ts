@@ -1,9 +1,10 @@
 export const navMenuList = [
 	{ href: "/", listName: "Home" },
-	{ href: "/bhagavadgeetha", listName: "Bhagavadgeetha" },
+	{ href: "/bhagavadgeetha", listName: "Knowledge" },
 	{ href: "/slokas", listName: "Slokas" },
 	{ href: "/stories", listName: "Stories" },
-	{ href: "/indianrichesttemples", listName: "IndianRichestTemples" },
+	{ href: "/indianrichesttemples", listName: "TopTemples" },
+	{ href: "/store", listName: "Store" },
 ];
 
 export const footerLists = [

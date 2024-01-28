@@ -8,6 +8,12 @@ const nextConfig = {
 				port: "",
 				pathname: "/telanganatemples/**",
 			},
+			{
+				protocol: "https",
+				hostname: "m.media-amazon.com",
+				port: "",
+				pathname: "/images/**",
+			},
 		],
 	},
 };
