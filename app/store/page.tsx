@@ -9,6 +9,7 @@ const ProductStore = () => {
 				{productsData.map((store, index) => {
 					return (
 						<ProductCard
+							key={index}
 							price={store.price}
 							description={store?.description}
 							url={store?.image}
