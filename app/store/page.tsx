@@ -12,7 +12,11 @@ const ProductStore = () => {
 							key={index}
 							price={store.price}
 							description={store?.description}
-							url={store?.image}
+							url={
+								store?.image && store?.image !== ""
+									? store?.image
+									: "/laxmiidol.jpg"
+							}
 							title={store?.title}
 							rating={store?.rating}
 							id={index}

@@ -5,7 +5,8 @@ export const productsData = [
 		description:
 			"<div><ul><li>Idol is made of Solid Poly resin with 999 Silver plating work, and terracotta color work over the Silver plated surface. Quality of Idol is best in the industry. With terrific workmanship and especially aesthetic work. Double lenses paint to give eyes the real feel</li><li> <b>Size:</b> Height 3.5 Inches x Width 2 Inches | Weight: 140 Grams | Material: Ceramic, Silver Plated with Terracotta hand painted Package Contents: 1. Silver Plated Ganesha Idol </li><li> <b>Best For:</b> Car dashboard, Return gifts, Diwali gifts, Ganesh chaturthi, Baby shower, house warming, Home decor, Festivals.</li><li><b> Speciality:</b> Best in the industry, we pioneered the idea of Gold/Silver plated idols with Terracotta color work.</li><li> <b>Durability:</b> 3-4years tarnish resistance </li><li><b>Care:</b> Do not use water or any fluid substance to clean the idol. Use only soft dry cloth.</li><li> Origin: Made in India by local kaarigars and artisans.</li></ul></div>",
 		price: "₹549",
-		image: "/ganeshidol.jpg",
+		image:
+			"https://m.media-amazon.com/images/I/41qDJ5E4EJL._SX300_SY300_QL70_FMwebp_.jpg",
 		affiliateLink: "https://amzn.to/4bgjj0G",
 		ratings_count: "3,896",
 		rating: "4.7",
@@ -16,7 +17,8 @@ export const productsData = [
 		description:
 			"<div> <ul> <li> <b>Package Contents :</b> One Meditatin Lord Shiva Cold Cast Bronze Resin Decorative Figurine </li> <li> <b>Product Size :</b> 6.98Cm x 3.47Cm x 7.97Cm / 2.75&quote;x1.37&quote;x3.14&quote; </li> <li> <b>Care Instructions :</b> Don't wash, use dry/wet cotton cloth to remove dirt. </li> <li> <b>Color :</b> Brown and Golden ; Material : Polyresin and Bronze </li> </ul></div>",
 		price: "₹499",
-		image: "/shivaidol.jpg",
+		image:
+			"https://m.media-amazon.com/images/I/51jFKp4FfUL._SX300_SY300_QL70_FMwebp_.jpg",
 		affiliateLink: "https://amzn.to/3OlN5az",
 		ratings_count: "69",
 		rating: "4.3",
@@ -27,7 +29,8 @@ export const productsData = [
 		description:
 			"<div> <li> Goddess Lakshmi statue - Hand painting by artist with specially technique with color accents to give a high-quality look without sacrificing the details </li> <li> <b>Size:</b> Height 7.5 Inches x Width 4.5 Inches x Depth 3 Inches | Weight : 600 Grams | Material : Resin. </li> <li> The statue will make your living room look unique and will give it a royal ambience with its antique looks. </li> <li> The Goddess Laxmi Statue will brings goodness and brightness in your house and your world.</li> <li> It looks elegant and stylish. Awesome Looks for Home Temple Decor Bring home prosperity and peace at your Home. </li></div>",
 		price: "₹1,699",
-		image: "/laxmidol.jpg",
+		image:
+			"https://m.media-amazon.com/images/I/41zpvVwqf-L._SX300_SY300_QL70_FMwebp_.jpg",
 		affiliateLink: "https://amzn.to/3SBz4Z8",
 		ratings_count: "380",
 		rating: "4.5",
@@ -38,7 +41,8 @@ export const productsData = [
 		description:
 			"<div><ul><li>Material:</b> Brass</li><li>	<b>Dimensions :</b> Length: 5 inches (12.5 cm) , Width: 4 inches (10 cm) ,	Height: 5 inches (12.5 cm)</li><li>	<b>Package Contains:</b> 1 Unit Of Shankh Chakra Namah Design Brass Diya Over	Carved Legs</li><li>	<b>Radiant Illumination:</b> Illuminate your space with a warm and enchanting	glow. The carefully designed diya allows the light to dance elegantly,	creating an ambiance that soothes the senses and uplifts the mood.</li><li>	<b>Symbol of Spirituality:</b> Embrace the divine energy with the Shankh Chakra	Namah design, embodying ancient symbols of positivity and protection.	Infuse your surroundings with spiritual vibes that resonate deeply.</li><li>	<b>Perfect Gift Choice:</b> Searching for a thoughtful gift? Look no further! The	Shankh Chakra Namah Brass Diya is a unique and meaningful present for shop	opening, housewarming, Diwali etc that will leave a lasting impression on	your loved ones.</b></li><li>	<b>Versatile Decor:</b> Whether adorning your living room, meditation space, or	even as an elegant centerpiece for gatherings, this diya effortlessly	complements any setting, adding a touch of sophistication.</li><li>	<b>Care Instructions:</b> Use dry or wet cotton cloth to remove dirt. The product	is even washable.</li></ul></div>",
 		price: "₹1,925",
-		image: "/shankchakra.jpg",
+		image:
+			"https://m.media-amazon.com/images/I/51HnISWMr7L._SX300_SY300_QL70_FMwebp_.jpg",
 		affiliateLink: "https://amzn.to/3HCqQtu",
 		ratings_count: "660",
 		rating: "4.3",
